@@ -31,6 +31,7 @@ dependencies:
   - markdown=3.8=py39h06a4308_0
   - markupsafe=3.0.2=py39h5eee18b_0
   - ncurses=6.5=h7934f7d_0
+  - numpy=1.26.4=py39heeff2f4_0
   - numpy-base=1.26.4=py39h8a23956_0
   - openssl=3.0.17=h5eee18b_0
   - packaging=25.0=py39h06a4308_0
@@ -79,6 +80,7 @@ dependencies:
       - fonttools==4.59.0
       - gsplat==1.0.0
       - idna==3.10
+      - imageio==2.37.0
       - importlib-metadata==8.7.0
       - importlib-resources==6.5.2
       - ipdb==0.13.13
@@ -94,6 +96,7 @@ dependencies:
       - jupyter-core==5.8.1
       - jupyterlab-widgets==3.0.15
       - kiwisolver==1.4.7
+      - lazy-loader==0.4
       - markdown-it-py==3.0.0
       - matplotlib==3.9.4
       - matplotlib-inline==0.1.7
@@ -101,15 +104,17 @@ dependencies:
       - narwhals==2.1.1
       - nbformat==5.10.4
       - nest-asyncio==1.6.0
+      - networkx==3.2.1
       - ninja==1.13.0
-      - numpy==2.0.2
       - open3d==0.19.0
+      - opencv-python==4.12.0.88
       - pandas==2.3.1
       - parso==0.8.4
       - pexpect==4.9.0
       - pillow==11.3.0
       - platformdirs==4.3.8
       - plotly==6.3.0
+      - point-cloud-utils==0.34.0
       - prompt-toolkit==3.0.51
       - ptyprocess==0.7.0
       - pure-eval==0.2.3
@@ -123,10 +128,12 @@ dependencies:
       - retrying==1.4.2
       - rich==14.1.0
       - rpds-py==0.27.0
+      - scikit-image==0.24.0
       - scikit-learn==1.6.1
       - scipy==1.13.1
       - stack-data==0.6.3
       - threadpoolctl==3.6.0
+      - tifffile==2024.8.30
       - tomli==2.2.1
       - torch==1.13.0+cu117
       - torchaudio==0.13.0+cu117
